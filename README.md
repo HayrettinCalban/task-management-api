@@ -1,6 +1,6 @@
 # Task Management API
 
-A compact CQRS example with MediatR, JWT role authorization, EF Core/SQLite and xUnit. Domain, Application and Infrastructure are separate folders in one assembly: this illustrates dependency direction but is not a fully isolated multi-project Clean Architecture.
+A compact CQRS example with MediatR, JWT role authorization, EF Core/SQLite and xUnit. Domain, Application, Infrastructure and API are separate projects. Dependencies point from API and Infrastructure towards Application and Domain.
 
 ## Run
 Requires .NET 8 SDK. Set secrets locally (do not commit them):
